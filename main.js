@@ -326,7 +326,6 @@ $(function () {
                             $(this).data("lastvalue", str);
                             $(this).text(str);
                         });
-
                         break;
                 }
                 updateBaro(); // some hardcoded necessity

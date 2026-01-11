@@ -1101,7 +1101,25 @@ body.locked .shieldDialog .ui-dialog-titlebar-close {
 	background: #000;
 	border-color: #202C3B;
 }
+/* HYD */
+#sh_hyd .shieldGroup.shieldGroupHydGreen{
+	display: inline-block;
+	border: solid 0.15em greenyellow;
+}
+#sh_hyd .shieldGroup.shieldGroupHydYellow{
+	display: inline-block;
+	border: solid 0.15em yellow;
+}
 
+#sh_hyd .shieldGroup fieldset{
+	display: inline-block;
+	border: solid 0.15em white;
+}
+#sh_hyd .shieldGroup fieldset legend{
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* GENERIC help dialogs */
 
 .helpDialog.ui-dialog-content {
